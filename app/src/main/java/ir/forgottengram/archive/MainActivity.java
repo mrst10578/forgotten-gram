@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public final class MainActivity extends Activity {
     private static final int BLUE = 0xFF2564BD;
     private static final String DEFAULT_TEMPLATE =
-        "📚 {subject}\\n🎬 جلسه: {session}\\n📁 {destination}\\n\\n{caption}";
+        "📚 {subject}\n🎬 جلسه: {session}\n📁 {destination}\n\n{caption}";
     private Client client;
     private int apiId;
     private String apiHash;
